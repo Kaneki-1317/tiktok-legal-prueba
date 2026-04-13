@@ -2,30 +2,34 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>TikTok API App</title>
+  <title>TikTok Login App</title>
 </head>
 <body>
 
-  <h1>Welcome to Our TikTok API App</h1>
+  <h1>Welcome to Our TikTok Login App</h1>
 
-  <p>This application uses TikTok’s official API to provide analytics and user-authorized features.</p>
+  <p>
+    This application uses TikTok Login Kit to allow users to securely sign in with their TikTok account
+    and display their basic profile information.
+  </p>
+
+  <h2>Login</h2>
+
+  <a href="https://www.tiktok.com/v2/auth/authorize/?client_key=TU_CLIENT_KEY&response_type=code&scope=user.info.basic&redirect_uri=https://kaneki-1317.github.io/tiktok-legal-prueba/callback.html&state=123">
+    🔑 Login with TikTok
+  </a>
 
   <h2>Legal Pages</h2>
 
   <ul>
-    <li>
-      <a href="terms.html">Terms of Service</a>
-    </li>
-    <li>
-      <a href="privacy.html">Privacy Policy</a>
-    </li>
-    <li>
-      <a href="callback.html">callback</a>
-    </li>
+    <li><a href="terms.html">Terms of Service</a></li>
+    <li><a href="privacy.html">Privacy Policy</a></li>
   </ul>
 
   <h2>About</h2>
-  <p>This app does not store or sell user data. All data is accessed only through TikTok OAuth permissions.</p>
+  <p>
+    This app does not store or share user data. All data is retrieved only through TikTok OAuth permissions.
+  </p>
 
   <h2>Contact</h2>
   <p>Email: contacto.tuempresa@gmail.com</p>
