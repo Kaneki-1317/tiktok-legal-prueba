@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>TikTok Callback</title>
+</head>
+<body>
+
+  <h1>Login completado</h1>
+  <p>Procesando autorización...</p>
+
+  <script>
+    const params = new URLSearchParams(window.location.search);
+    const code = params.get("code");
+
+    document.body.innerHTML += "<p>Code recibido: " + code + "</p>";
+  </script>
+
+</body>
+</html>
